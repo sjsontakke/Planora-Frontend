@@ -2,7 +2,7 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
 // Use the correct backend URL
-const API_URL = "http://localhost:5000/api";
+const API_URL = "https://planora-backend-rf22.onrender.com/api";
 
 const getAuthHeaders = () => {
   const userInfo = JSON.parse(localStorage.getItem("userInfo"));

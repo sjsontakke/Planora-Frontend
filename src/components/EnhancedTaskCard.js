@@ -193,7 +193,7 @@ const EnhancedTaskCard = ({ task }) => {
                       </div>
                     </div>
                     <a
-                      href={`http://localhost:5000${file.url}`}
+                      href={`https://planora-backend-rf22.onrender.com${file.url}`}
                       download
                       className="text-blue-600 hover:text-blue-800 text-sm"
                     >
